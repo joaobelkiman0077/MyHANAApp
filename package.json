@@ -19,6 +19,7 @@
   "scripts": {
     "start": "cds-serve",
     "deploy": "cds deploy --to hana:CAP_HANA-dev",
+    "app": "npm start --prefix app",
     "watch-interaction_items": "cds watch --open interaction_items/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
