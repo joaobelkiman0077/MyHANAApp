@@ -1,0 +1,36 @@
+{
+  "requires": {
+    "[hybrid]": {
+      "db": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.us10-001.hana.ondemand.com",
+          "org": "João_Henrique Barbosa Belkiman_free-build-kyjuqdzk",
+          "space": "dev",
+          "instance": "CAP_HANA-dev",
+          "key": "CAP_HANA-dev-key",
+          "resolved": false
+        },
+        "kind": "hana",
+        "vcap": {
+          "name": "db"
+        }
+      },
+      "auth": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.us10-001.hana.ondemand.com",
+          "org": "João_Henrique Barbosa Belkiman_free-build-kyjuqdzk",
+          "space": "dev",
+          "instance": "MyHANAApp-auth1",
+          "key": "default",
+          "resolved": false
+        },
+        "kind": "xsuaa",
+        "vcap": {
+          "name": "auth"
+        }
+      }
+    }
+  }
+}
